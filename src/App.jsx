@@ -1,4 +1,6 @@
 import "./styles.css";
+// component
+import Navigation from "./components/Navigation";
 
 function App() {
   const name = "Devtown";
@@ -12,6 +14,7 @@ function App() {
         {name}
       </h1>
       <span>{para}</span>
+      <Navigation></Navigation>
     </>
   );
 }
