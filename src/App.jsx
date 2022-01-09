@@ -10,11 +10,12 @@ function App() {
   return (
     <>
       {/* react fragment */}
+      <Navigation />
+      {/* or <Navigation></Navigation> */}
       <h1 className="title" style={{ fontSize: "20px" }}>
         {name}
       </h1>
       <span>{para}</span>
-      <Navigation></Navigation>
     </>
   );
 }
