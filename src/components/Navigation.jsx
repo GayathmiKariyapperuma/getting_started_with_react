@@ -1,6 +1,6 @@
 import React from "react";
 
 function Navigation() {
-  return <div>Navigation</div>;
+  return <h2>Navigation</h2>;
 }
 export default Navigation;
