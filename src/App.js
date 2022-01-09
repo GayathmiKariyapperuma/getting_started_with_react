@@ -8,7 +8,9 @@ function App() {
   return (
     <>
       {/* react fragment */}
-      <h1>{name}</h1>
+      <h1 className="title" style={{ fontSize: "20px" }}>
+        {name}
+      </h1>
       <span>{para}</span>
     </>
   );
