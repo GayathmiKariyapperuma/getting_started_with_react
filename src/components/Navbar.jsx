@@ -5,7 +5,7 @@ import { AiFillAlipayCircle } from "react-icons/ai";
 function Navbar() {
   return (
     <div className="navbar">
-      <AiFillAlipayCircle />
+      <AiFillAlipayCircle className="companyLogo" />
       <div className="links">
         <button>Home</button>
         <button>Contact</button>
