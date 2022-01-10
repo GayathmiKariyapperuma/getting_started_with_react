@@ -1,6 +1,6 @@
 import "./styles.css";
 // component
-import Navigation from "./components/Navigation";
+//import Navigation from "./components/Navigation";
 
 function App() {
   const name = "Devtown";
