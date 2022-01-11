@@ -1,5 +1,6 @@
 import "./styles.css";
-// component
+
+// components
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 
@@ -7,9 +8,17 @@ function App() {
   return (
     <>
       <Navbar />
-      <div>
-        <h1>Getting started with React</h1>
-        <p>Lorem......</p>
+      <div className="container">
+        <Sidebar />
+        <div>
+          <h1>Getting Started with React</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
+            facilis impedit laudantium cupiditate debitis consequatur est
+            pariatur atque eum maxime, deleniti odio officiis, dignissimos
+            ratione, molestiae repellat minima itaque veritatis.
+          </p>
+        </div>
       </div>
     </>
   );
