@@ -17,4 +17,7 @@ body {
 
 .mainContenr {
   flex: 4;
+  padding: 1rem;
+  color: white;
+  background-color: rgb(34, 34, 49);
 }
