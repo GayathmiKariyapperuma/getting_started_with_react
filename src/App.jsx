@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <div className="container">
         <Sidebar />
-        <div>
+        <div className="mainContent">
           <h1>Getting Started with React</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
