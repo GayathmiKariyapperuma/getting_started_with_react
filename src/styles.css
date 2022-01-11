@@ -6,3 +6,7 @@
 .container {
   display: flex;
 }
+
+.mainContenr {
+  flex: 4;
+}
