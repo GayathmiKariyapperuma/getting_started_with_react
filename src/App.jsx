@@ -16,11 +16,13 @@ function App() {
       <Navbar />
       <div className="container">
         <Sidebar />
-        <Routes>
-          <Route path="/" element={Home} />
-          <Route path="/contact" element={Contact} />
-          <Route path="/get-help" element={GetHelp} />
-        </Routes>
+        <div className="mainContainer">
+          <Routes>
+            <Route path="/" element={Home} />
+            <Route path="/contact" element={Contact} />
+            <Route path="/get-help" element={GetHelp} />
+          </Routes>
+        </div>
       </div>
     </>
   );
