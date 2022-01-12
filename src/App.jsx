@@ -1,5 +1,5 @@
 import "./styles.css";
-import { Router, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 // components
 import Navbar from "./components/Navbar";
