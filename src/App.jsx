@@ -1,9 +1,14 @@
 import "./styles.css";
-import { Router, Route } from "react-router-dom";
+import { Router, Route, Routes } from "react-router-dom";
 
 // components
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
+
+//pages
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import GetHelp from "./pages/GetHelp";
 
 function App() {
   return (
@@ -11,15 +16,11 @@ function App() {
       <Navbar />
       <div className="container">
         <Sidebar />
-        <div className="mainContent">
-          <h1>Getting Started with React</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
-            facilis impedit laudantium cupiditate debitis consequatur est
-            pariatur atque eum maxime, deleniti odio officiis, dignissimos
-            ratione, molestiae repellat minima itaque veritatis.
-          </p>
-        </div>
+        <Routes>
+          <Route path="/" element={Home} />
+          <Route path="/contact" element={Contact} />
+          <Route path="/get-help" element={GetHelp} />
+        </Routes>
       </div>
     </>
   );
