@@ -8,9 +8,15 @@ function Navbar() {
     <div className="navbar">
       <AiFillAlipayCircle className="companyLogo" />
       <div className="links">
-        <Link to="/">Home</Link>
-        <Link to="/contact">Contact</Link>
-        <Link to="/get-help">Get Help</Link>
+        <Link className="navigationLink" to="/">
+          Home
+        </Link>
+        <Link className="navigationLink" to="/contact">
+          Contact
+        </Link>
+        <Link className="navigationLink" to="/get-help">
+          Get Help
+        </Link>
       </div>
     </div>
   );
