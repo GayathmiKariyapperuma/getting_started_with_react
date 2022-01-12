@@ -25,11 +25,3 @@ function App() {
 }
 
 export default App;
-
-/*const App = () => {
-  return (
-    <div className="App">
-      <h1>DevTown</h1>
-    </div>
-  );
-};*/
