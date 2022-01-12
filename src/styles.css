@@ -15,7 +15,7 @@ body {
   display: flex;
 }
 
-.mainContenr {
+.mainContainer {
   flex: 4;
   padding: 1rem;
   color: white;
