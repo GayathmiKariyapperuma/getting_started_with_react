@@ -1,8 +1,7 @@
-import React, {useState } from "react";
+import React, { useState } from "react";
 
 function Home() {
-
-  const [number] = useState(0);
+  const [number, setNumber] = useState(0);
 
   return (
     <>
@@ -13,6 +12,8 @@ function Home() {
         Cupiditate, enim, provident eaque officiis iusto eligendi, modi unde
         voluptatum officia asperiores incidunt.
       </p>
+      <h1>{number}</h1>
+      <button>add 1</button>
     </>
   );
 }
