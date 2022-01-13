@@ -1,6 +1,9 @@
-import React from "react";
+import React, {useState } from "react";
 
 function Home() {
+
+  const [number] = useState(0);
+
   return (
     <>
       <h1>Getting Started with React</h1>
