@@ -13,7 +13,7 @@ function Home() {
         voluptatum officia asperiores incidunt.
       </p>
       <h1>{number}</h1>
-      <button>add 1</button>
+      <button onClick={() => setNumber(number + 1)}>add 1</button>
     </>
   );
 }
