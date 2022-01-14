@@ -18,9 +18,12 @@ function App() {
         <Sidebar />
         <div className="mainContainer">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/get-help" element={<GetHelp />} />
+            <Route path="/" element={<Home title="Home Page" />} />
+            <Route path="/contact" element={<Contact title="Contact Page" />} />
+            <Route
+              path="/get-help"
+              element={<GetHelp title="Get Help Page" />}
+            />
           </Routes>
         </div>
       </div>
