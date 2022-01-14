@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
-function Home() {
+function Home(props) {
   const [toggle, setToggle] = useState(false);
 
   return (
     <>
-      <h1>Getting Started with React</h1>
+      <h1>{props.title}</h1>
       {toggle && (
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci

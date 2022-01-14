@@ -1,9 +1,9 @@
 import React from "react";
 
-function GetHelp() {
+function GetHelp(props) {
   return (
     <>
-      <h1>Get help page</h1>
+      <h1>{props.title}</h1>
     </>
   );
 }
