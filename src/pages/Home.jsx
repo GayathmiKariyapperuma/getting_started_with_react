@@ -1,7 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 function Home(props) {
   const [toggle, setToggle] = useState(false);
+
+  //componentDidMount
+  useEffect(() => {
+    console.log("Component Mounted");
+  }, []);
 
   return (
     <>
